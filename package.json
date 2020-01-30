@@ -9,7 +9,6 @@
     "url": "https://github.com/idkjs/reason-anyhooks/issues"
   },
   "scripts": {
-    "prepare": "install-peers",
     "build": "bsb -make-world",
     "start": "bsb -make-world -w -ws _",
     "clean": "bsb -clean-world",
