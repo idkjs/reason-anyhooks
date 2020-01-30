@@ -1,0 +1,27 @@
+{
+  "name": "reason-anyhooks",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "example",
+      "type": "dev"
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": ["reason-react"],
+  "bs-dev-dependencies": [],
+  "refmt": 3
+}

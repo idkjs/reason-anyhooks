@@ -1,0 +1,16 @@
+.DS_Store
+.merlin
+.bsb.lock
+npm-debug.log
+/lib/bs/
+/node_modules/
+coverage
+**/*.bs.js
+
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+examples/lib/bs/src
+pnpm-lock.yaml
+/build
