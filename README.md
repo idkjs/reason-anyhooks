@@ -48,12 +48,12 @@ These binding only hook to `React` hooks at the moment. I went down this rabit h
 
 ```bash
 #With npm
-npm install reason-anyhooks --save
+npm install https://github.com/idkjs/reason-anyhooks --save
 ```
 
 ```bash
 #With yarn
-yarn add reason-anyhooks
+yarn add https://github.com/idkjs/reason-anyhooks
 ```
 
 ```bash
