@@ -4,13 +4,14 @@
   "description": "reason-anyhooks",
   "homepage": "http://idkjs.github.io/reason-anyhooks",
   "author": "Alain Armand",
+  "private": true,
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/idkjs/reason-anyhooks/issues"
   },
   "scripts": {
     "build": "bsb -make-world",
-    "start": "bsb -make-world -w -ws _",
+    "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
     "webpack": "webpack -w",
     "server": "webpack-dev-server",
@@ -42,7 +43,8 @@
     "reason-react": ">=0.7.0"
   },
   "devDependencies": {
-    "bs-platform": "^7.0.1",
+    "bs-platform": "^7.1.0",
+    "clean-webpack-plugin": "3.0.0",
     "css-loader": "^3.4.2",
     "gh-pages": "2.2.0",
     "html-webpack-plugin": "^3.2.0",
@@ -56,9 +58,9 @@
     "use-constant": "1.0.0",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.10.1"
+    "webpack-dev-server": "^3.10.2"
   },
   "dependencies": {
-    "any-hooks": "4.0.1"
+    "any-hooks": "4.0.2"
   }
 }
